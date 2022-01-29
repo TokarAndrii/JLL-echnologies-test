@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Typography from "@material-ui/core/Typography";
+import TenantsList from "./pages/TenantsList";
+import Tetant from "./pages/Tetant";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Typography variant="h4" component="h2">
+        JJL Technologies app
+      </Typography>
+      <Routes>
+        <Route path="/list" element={<TenantsList />} />
+        <Route path="list/:id" element={<Tetant />} />
+      </Routes>
     </div>
   );
 }
