@@ -49,7 +49,7 @@ const TenantsList = () => {
               />
             ))}
           </Grid>
-          {pageNumber > 0 && (
+          {pageNumber > 1 && (
             <Button
               className={classes.button}
               variant="contained"
