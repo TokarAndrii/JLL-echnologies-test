@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TenantItemCard component should render TenantItemCard 1`] = `
+<WithStyles(ForwardRef(Card))
+  className="makeStyles-root-1"
+  onClick={[Function]}
+>
+  <WithStyles(ForwardRef(Typography))
+    className="makeStyles-title-3"
+    color="textSecondary"
+    gutterBottom={true}
+  >
+    name
+  </WithStyles(ForwardRef(Typography))>
+  <WithStyles(ForwardRef(Divider)) />
+  <WithStyles(ForwardRef(Typography))
+    className="makeStyles-info-4"
+    component="h2"
+  >
+    <span
+      className="makeStyles-bullet-2"
+    >
+      •
+    </span>
+    code: 
+    code
+    ; 
+    <span
+      className="makeStyles-bullet-2"
+    >
+      •
+    </span>
+    type: 
+    type
+    ; 
+    <span
+      className="makeStyles-bullet-2"
+    >
+      •
+    </span>
+    status: 
+    status
+  </WithStyles(ForwardRef(Typography))>
+  <WithStyles(ForwardRef(Divider)) />
+  <WithStyles(ForwardRef(Typography))
+    className="makeStyles-description-5"
+    component="p"
+  >
+    description
+  </WithStyles(ForwardRef(Typography))>
+</WithStyles(ForwardRef(Card))>
+`;

@@ -38,7 +38,7 @@ const useStyles = makeStyles({
   }
 });
 
-const Tetant = () => {
+const Tenant = () => {
   const classes = useStyles();
   let { id } = useParams();
 
@@ -100,7 +100,7 @@ const Tetant = () => {
   );
 };
 
-export default Tetant;
+export default Tenant;
 
 const TenantByIdQuery = gql`
   query TenantsQuery($subPath: String) {

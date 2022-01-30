@@ -1,7 +1,7 @@
 import "./App.css";
 import Typography from "@material-ui/core/Typography";
 import TenantsList from "./pages/TenantsList";
-import Tetant from "./pages/Tetant";
+import Tenant from "./pages/Tenant";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       </Typography>
       <Routes>
         <Route path="/list" element={<TenantsList />} />
-        <Route path="list/:id" element={<Tetant />} />
+        <Route path="list/:id" element={<Tenant />} />
       </Routes>
     </div>
   );
